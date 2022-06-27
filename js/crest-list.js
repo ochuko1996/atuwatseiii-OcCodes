@@ -1,0 +1,26 @@
+export const crests = [
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/abejeoye.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/akengbuwa.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/akenjioye.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/akenjioye_sebastien.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/atogbuwa.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/atonrongboye.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/atuwatse.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/atuwatse_ii.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/atuwatse_iii.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/erejuwa.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/erejuwa_ii.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/esigie.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_i.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/ginuwa_ii.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/ijijen.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/ikenwoli.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/interregnum.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/irame.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/ojoluwa.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/omagboye.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/omoluyiri.jpg",
+         "https://atuwatseiii.com/assets/img/crests/iwere_kings/oyenakpagha.jpg",
+        
+    
+]

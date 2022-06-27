@@ -1,0 +1,117 @@
+.red-nav-items{
+    padding: 5px 20px;
+    margin-right: 5px;
+}
+.red-nav-items:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 100px;
+}
+.red-nav-items span{
+    padding: 0 0 0 10px;
+}
+.red-nav-items a{
+    align-items: center;
+}
+.nav-two{
+    background-color: var(--clr-red);
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: -45px;
+    margin: 0 auto;
+    z-index: 100;
+}
+.nav-icon{
+    position: fixed;
+    transform: translate(-50%, -50%);
+    color: var(--clr-white);
+    bottom: -10px;
+    background-color: var(--clr-red);
+    padding: 4px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--fs-link);
+}
+.show-red-nav{
+    bottom: 40px;
+}
+.show-icon{
+    bottom: 75px;
+}
+.mobile-toggle{
+    display: none;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .nav-two{
+        max-width: 80%!important;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+   .nav-two{
+        bottom: -45px;
+   }
+   .nav-icon{
+       bottom: -10px;
+   }
+   .show-red-nav{
+        bottom: 10px;
+    }
+    .show-icon{
+        bottom: 45px;
+    }
+}
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .hrm h1{
+        font-size: 2.2rem;
+    }
+    .red-nav{
+        overflow: hidden;
+    }
+    .nav-two{
+        max-width: 600px;
+        padding-left: 55px;
+        overflow-x: auto;
+        /* padding: 0px; */
+        overflow-y: hidden;
+    }
+    .nav-two::-webkit-scrollbar{
+        width: 0;
+    }
+   
+   
+    .red-nav-links{
+        margin-top: 15px;
+    }
+    
+    
+ }
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+    .mobile-toggle{
+        display: block;
+        padding: 0 30px;
+        position: absolute;
+        top: 14px;
+        z-index: 5;
+    }
+    .nav-icon{
+        z-index: 10;
+    }
+    
+ }
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+ }

@@ -1,0 +1,122 @@
+@import url(../css/style.css);
+/*  */
+.h-100{
+    max-height: 100vh;
+}
+
+.history-right{
+    padding: 24px;
+    background-color: var(--clr-gray);
+}
+.history-header{
+    padding: 24px 24px 24px 0;
+}
+.history-content{
+    padding: 24px 36px;
+    background-color: var(--clr-white);
+    max-height: 75vh;
+    overflow-y: auto;
+    cursor: auto;
+    border-radius: 10px;
+}
+.history-content::-webkit-scrollbar{
+    width: 5px;
+}
+.history-content::-webkit-scrollbar-track{
+    border-radius: 5px;
+    background: #cccaca;
+}
+.history-content::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background-color: var(--clr-red);
+    display: none;
+}
+.history-content::-webkit-scrollbar-thumb:hover {
+    display: block;
+}
+.history-content h5{
+    margin-bottom: 10px;
+}
+.history-content p{
+    margin-bottom: 8px;
+    font-size: var(--fs-link);
+}
+.kingship-badge{
+    flex-direction: column;
+    height: 100vh;
+}
+.badge-container{
+    height: 50vh;
+    width: 70%;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: contain!important;
+}
+.crest-btn{
+    position: absolute;
+    background-color: transparent;
+    font-size: 1rem;
+    color: var(--clr-black);
+    border-radius: 10px;
+    border: 1px solid var(--clr-black);
+    z-index: 1;
+}
+.prev{
+    left: 40px;
+}
+.next{
+    right: 40px;
+}
+.history-mobile{
+    display: none;
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .prev{
+        left: 20px;
+    }
+    .next{
+        right: 20px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+   
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .history-mobile{
+        display: block;
+        /* margin-top: 100px; */
+        position: absolute;
+        top: 100px;
+        left: 30px;
+    }
+    .history-header{
+        display: none;
+    }
+    .history-content{
+        overflow-y: hidden;
+        max-height: 100%;
+        padding: 0px;
+    }
+    .history-right{
+        background-color: var(--clr-white);
+        padding: 16px;
+
+    }
+  
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    
+   
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+   
+}

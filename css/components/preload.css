@@ -1,0 +1,36 @@
+/* body {
+    position: absolute;
+    background-color: #2f4252;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+  .preloader-container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--clr-red);
+    z-index: 2000;
+  }
+  .preloader {
+    position: absolute;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    z-index: 1000;
+    text-indent: -9999em;
+    border: 6px solid rgba(255, 255, 255, 0.3);
+    border-left: 6px solid #fff;
+    border-radius: 50%;
+    animation: preloader 0.8s infinite linear;
+  }
+  
+ 
+  @keyframes preloader {
+    100% {
+      transform: rotate(360deg) scale(1.1);
+    }
+  }

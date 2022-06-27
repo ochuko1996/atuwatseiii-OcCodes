@@ -23,10 +23,10 @@ bar.addEventListener('click',()=>{
 //  preloader
 const preloader = document.querySelector('.preloader-container')
 window.addEventListener('load',()=>{
-    setInterval(()=>{
+    // setInterval(()=>{
         preloader.style.display = "none"
 
-    },2000)
+    // },2000)
 })
 
 

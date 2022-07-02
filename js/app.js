@@ -22,11 +22,16 @@ bar.addEventListener('click',()=>{
 
 //  preloader
 const preloader = document.querySelector('.preloader-container')
+const redAside = document.querySelector('.red-aside')
 window.addEventListener('load',()=>{
+    preloader.style.display = "none"
+    
+    // setInterval(()=>{
+    //     preloader.style.display = "none"
+    // },1000)
     setInterval(()=>{
-        preloader.style.display = "none"
-
-    },2000)
+        redAside.style.display = "none"
+    },1400)
 })
 
 

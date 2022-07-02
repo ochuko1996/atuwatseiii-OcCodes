@@ -1,19 +1,19 @@
 // Crest slider
 let counter = 0;
-import { crests } from "../crest-list.js"
+import { profileOfOba } from "../crest-list.js"
 const crestContainer = document.querySelector('.badge-container')
 const btns = document.querySelectorAll('.crest-btn')
 // console.log(crestContainer);
-
-crestContainer.style.background = `url(${crests[counter]})`
+// profileOfOba[counter++].image
+crestContainer.style.background = `url(${profileOfOba[counter].image})`
 btns.forEach(btn => {
     btn.addEventListener('click', e => {
         const target = e.currentTarget
         if (target.classList.contains('next')) {
-            crestContainer.style.backgroundImage = `url(${crests[counter++]})`
+            crestContainer.style.backgroundImage = `url(${profileOfOba[counter++].image})`
         }
         if (target.classList.contains('prev')) {
-            crestContainer.style.backgroundImage = `url(${crests[counter--]})`
+            crestContainer.style.backgroundImage = `url(${profileOfOba[counter--].image})`
         }
         logic()
     })
@@ -31,6 +31,8 @@ function logic() {
 
 
 const autoPlayBg = setInterval(()=>{
-    crestContainer.style.background = `url(${crests[counter++]})`
+    crestContainer.style.background = `url(${profileOfOba[counter++].image})`
     logic()
 },5000)
+
+

@@ -1,101 +1,46 @@
-@import url(style.css);
-*{
-    box-sizing: border-box;
-}
+@import url(./style.css);
 .bg-oba{
-    background-image: url(../assets/ginuwa.e4765c1eb1bbf7324286.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.ginuwa-container{
-    background-color: var(--clr-gray);
-}
-.no-padding{
-    padding: 0!important;
-}
-.no-margin{
-    margin: 0!important;
-}
-.ginuwa-ruling{
-    padding: 48px 24px 24px;
-    border-radius: 0px 0px 20px 20px;
-    background-color: var(--clr-white);
-}
-.ginuwa-ruling span{
-    font-size: .7rem;
-}
-.ginuwa-ruling input{
-    border-radius: 50px;
-    width: 100%;
-    border: 1.5px solid;
-    height: 45px;
-    padding: 0px 10px;
-    font-size: 1.2rem;
-    background: transparent;
-    outline: none;
-}
-.ginuwa-ruling input::placeholder{
-    font-size: .7rem;
+    background-image: url(../assets/awala-crowning.e4684fdac1c76f0f00a8.png);
 }
 .arrow-left{
     top: 14px;
     width: 28px;
     height: 28px;
 }
-.ginuwa-crest{
-    padding: 20px 0!important;
-    /* max-height: 65vh; */
-}
-.crest-card-container{
+.chief-container{
     overflow-y: auto;
     max-height: 65vh;
 
 }
-.crest-card-container::-webkit-scrollbar{
+.chief-container::-webkit-scrollbar{
     width: 5px;
 }
-.crest-card-container::-webkit-scrollbar-track{
+.chief-container::-webkit-scrollbar-track{
     border-radius: 5px;
     background: #cccaca;
 }
-.crest-card-container::-webkit-scrollbar-thumb{
+.chief-container::-webkit-scrollbar-thumb{
     border-radius: 3px;
     background-color: var(--clr-red);
     display: none;
 }
-.crest-card-container::-webkit-scrollbar-thumb:hover {
+.chief-container::-webkit-scrollbar-thumb:hover {
     display: block;
 }
-.arrow-left{
-    color: var(--clr-black);
-}
-.arrow-left img{
-    width: 70%;
-    height: 70%;
-}
-.crest-card{
-    background-color: var(--clr-white);
-    padding: 12px!important;
-    margin-bottom: 10px;
+.chief-card{
+    display: flex;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    transition: all 200ms;
+    padding: 12px;
+    margin-bottom: 10px;
     cursor: pointer;
-    align-items: stretch;
 }
-.mb-10{
-    margin: 0 0 10px 0!important;
-}
-.crest-card:hover{
+.chief-card:hover{
     background-color: var(--clr-red);
+    transition: all 200ms;
+}
+.chief-card:hover h5{
     color: var(--clr-white);
-}
-.p-x-24{
-    padding: 0 24px !important;
-}
-.sm-dp-profile{
-    display: none;
 }
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
